@@ -555,7 +555,7 @@ nav a {
 }
 
 .swiper-slide {
-	width: 232px;
+	width: 100% !important;
 	height: 266px;
 	background: #ffffff;
 	border-radius: 16px;
@@ -3148,24 +3148,37 @@ footer {
 	.img13 {
 		display: none;
 	}
+	
 
-	.aloqa_img {
-		position: absolute;
-		top: 230px;
-		left: 55px;
-	}
+	.aloqa {
+        width: 1000px;
+        height: 300px;
+        padding: 40px 60px;
+    }
 
-	.aloqa_img2 {
-		position: absolute;
-		top: 230px;
-		left: 280px;
-	}
+    .aloqa_img {
+        position: absolute;
+        top: 230px;
+        left: 55px;
+    }
 
-	.aloqa_img3 {
-		position: absolute;
-		top: 230px;
-		left: 505px;
-	}
+    .aloqa_img2 {
+        position: absolute;
+        top: 230px;
+        left: 280px;
+    }
+
+    .aloqa_img3 {
+        position: absolute;
+        top: 230px;
+        left: 505px;
+    }
+
+    .aloqachi img {
+        width: 300px;
+        height: auto;
+        left: 700px;
+    }
 
 	.kuu {
 		width: 350px;
@@ -3233,15 +3246,6 @@ footer {
 		height: 100px;
 	}
 
-	.swiper {
-		width: 760px;
-	}
-
-	.swiper-slide {
-		width: 300px;
-		height: 250px;
-	}
-
 	.img14 {
 		display: none;
 	}
@@ -3294,11 +3298,12 @@ footer {
 	.section_header_img {
 		display: flex;
 		gap: 10px;
+		max-width: 257px;
 	}
 
 	.section_header_img img {
-		width: 220px;
-		height: 340px;
+		width: 125px;
+		height: 200px;
 	}
 
 	.main_main {
@@ -3408,20 +3413,21 @@ footer {
 		left: 60px;
 	}
 
-	.section_header_img img {
-		width: 147px;
-		height: 237px;
-	}
-
 	.main {
 		width: 380px;
 		height: 105px;
 	}
 
 	.main_section_logo img {
+		position: absolute;
+		top: 40px;
+		left: 50px;
 		width: 50px;
 		height: 30px;
-		margin-left: 10px;
+	}
+
+	.main_main_btn button {
+		margin-left: 20px;
 	}
 
 	.main_btn {
@@ -3429,15 +3435,11 @@ footer {
 		justify-content: center;
 		align-items: center;
 		gap: 20px;
-		margin-top: 450px;
-	}
-
-	.main_btn1 {
-		display: none;
+		margin-top: 400px;
 	}
 
 	.main_button {
-		margin-left: -80px;
+		display: none;
 	}
 
 	.main_button button {
@@ -3445,12 +3447,8 @@ footer {
 		height: 40px;
 	}
 
-	.burger {
-		margin-left: -70px;
-	}
-
 	.swiper {
-		width: 350px;
+		width: 310px;
 	}
 
 	.main_main_img img:nth-child(1) {
@@ -3484,8 +3482,12 @@ footer {
 	}
 
 	.cardlar {
+		width: 100% !important;
 		flex-direction: column;
 		gap: 50px;
+	}
+	.card{
+		width: 100% !important;
 	}
 
 	.kuu:nth-child(2) {
@@ -3522,7 +3524,7 @@ footer {
 		margin-right: -60px;
 	}
 
-	.lorem{
+	.lorem {
 		font-style: 18px;
 		max-width: 130px;
 	}
@@ -3530,7 +3532,8 @@ footer {
 	.main_section_logo a {
 		margin-left: 50px;
 	}
-	.footer_3{
+
+	.footer_3 {
 		padding: 16px 10px;
 		width: 231px;
 		height: 242px;
