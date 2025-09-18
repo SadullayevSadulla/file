@@ -1,0 +1,18 @@
+{
+  "name": "Bilton",
+  "short_name": "Bilton",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#1A2B8A",
+  "theme_color": "#1A2B8A",
+  "icons": [
+    {
+      "src": "/Group 1000015320.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
+
+
