@@ -1,0 +1,83 @@
+.contact-banner {
+  background-color: #1e3a8a;
+  color: white;
+  padding: 12px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.contact-info {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.contact-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-label {
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.contact-value {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.contact-divider {
+  width: 1px;
+  height: 20px;
+  background-color: white;
+}
+
+.social-media {
+  display: flex;
+  gap: 15px;
+}
+
+.social-icon {
+  width: 40px;
+  height: 40px;
+  border: 2px solid white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.social-icon:hover {
+  background-color: white;
+  color: #1e3a8a;
+}
+
+@media (max-width: 768px) {
+  .contact-banner {
+    flex-direction: column;
+    gap: 15px;
+    padding: 15px 20px;
+  }
+  
+  .contact-info {
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .contact-divider {
+    display: none;
+  }
+}

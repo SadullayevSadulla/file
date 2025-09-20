@@ -33,7 +33,6 @@ const Header = () => {
                       <span className="number">+998 93 663 0785</span>
                     </div>
                   </div>
-
                   <span className="divider"></span>
 
                   <div className="header_link-box">

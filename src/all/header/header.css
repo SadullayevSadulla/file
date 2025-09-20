@@ -555,7 +555,7 @@ nav a {
 }
 
 .swiper-slide {
-	width: 100% !important;
+	width: 1100;
 	height: 266px;
 	background: #ffffff;
 	border-radius: 16px;
@@ -1231,8 +1231,8 @@ h3 {
 
 /* Contact section */
 .aloqa {
-	width: 1600px;
-	height: 338px;
+	/* width: 1600px; */
+	/* height: 338px; */
 	background: linear-gradient(90deg, #FFB202 0%, #B57F06 100%);
 	border-radius: 30px;
 	padding: 53px 106px;
@@ -3060,7 +3060,7 @@ footer {
 	}
 
 	.swiper {
-		width: 1030px;
+		width: 1000px;
 	}
 
 	.img14 {
@@ -3282,7 +3282,7 @@ footer {
 	}
 
 	.section_header_h1 h1 {
-		max-width: 200px;
+		max-width: 400px;
 		font-size: 30px;
 	}
 
@@ -3312,6 +3312,15 @@ footer {
 		justify-content: center;
 		align-items: center;
 		flex-direction: column;
+	}
+
+	.section_header{
+		display: flex;
+		gap: 40px;
+	}
+
+	.swiper {
+		width: 750px;
 	}
 
 	.main_button button {
@@ -3436,6 +3445,9 @@ footer {
 		align-items: center;
 		gap: 20px;
 		margin-top: 400px;
+	}
+	.main_btn1 {
+		margin-left: 20px;
 	}
 
 	.main_button {

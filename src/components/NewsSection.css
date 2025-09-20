@@ -1,0 +1,279 @@
+.news-section {
+  background-color: white;
+  padding: 80px 20px;
+}
+
+.news-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.news-header {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.news-badge {
+  background-color: #fbbf24;
+  color: #1e3a8a;
+  padding: 8px 20px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: 600;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.news-title {
+  font-size: 36px;
+  font-weight: bold;
+  color: #1e3a8a;
+  line-height: 1.3;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.highlighted-text {
+  position: relative;
+  display: inline-block;
+}
+
+.highlighted-text::after {
+  content: '';
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background-color: #fbbf24;
+  border-radius: 2px;
+  z-index: -1;
+}
+
+.news-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 30px;
+}
+
+.news-card {
+  background-color: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  border: 1px solid #e5e7eb;
+  transition: all 0.3s ease;
+}
+
+.news-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+}
+
+.news-image {
+  position: relative;
+  height: 200px;
+  background-color: #dbeafe;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.family-avatar {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  justify-content: center;
+}
+
+.family-member {
+  width: 50px;
+  height: 50px;
+  background-color: #fef3c7;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.family-member.man {
+  background-color: #dbeafe;
+}
+
+.family-member.woman {
+  background-color: #fecaca;
+}
+
+.family-member.girl {
+  background-color: #fce7f3;
+}
+
+.family-face {
+  width: 35px;
+  height: 35px;
+  position: relative;
+}
+
+.family-eyes {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 8px;
+}
+
+.family-eye {
+  width: 5px;
+  height: 5px;
+  background-color: #1f2937;
+  border-radius: 50%;
+}
+
+.family-smile {
+  width: 20px;
+  height: 10px;
+  border: 2px solid #1f2937;
+  border-top: none;
+  border-radius: 0 0 20px 20px;
+  margin: 6px auto 0;
+}
+
+.news-date {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  background-color: #f59e0b;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 15px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.news-content {
+  padding: 25px;
+}
+
+.news-meta {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 15px;
+  font-size: 12px;
+  color: #6b7280;
+}
+
+.news-author,
+.news-comments {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.news-item-title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #1e3a8a;
+  margin-bottom: 20px;
+  line-height: 1.4;
+}
+
+.news-button {
+  background-color: #fbbf24;
+  color: #1e3a8a;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.news-button:hover {
+  background-color: #f59e0b;
+  transform: translateY(-2px);
+}
+
+.news-button::after {
+  content: '→';
+  font-size: 16px;
+  font-weight: bold;
+}
+
+@media (max-width: 1024px) {
+  .news-grid {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 25px;
+  }
+  
+  .news-title {
+    font-size: 32px;
+  }
+}
+
+@media (max-width: 768px) {
+  .news-section {
+    padding: 60px 20px;
+  }
+  
+  .news-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  
+  .news-title {
+    font-size: 28px;
+  }
+  
+  .news-image {
+    height: 180px;
+  }
+  
+  .family-member {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .news-content {
+    padding: 20px;
+  }
+  
+  .news-item-title {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .news-section {
+    padding: 40px 15px;
+  }
+  
+  .news-title {
+    font-size: 24px;
+  }
+  
+  .news-image {
+    height: 160px;
+  }
+  
+  .family-member {
+    width: 35px;
+    height: 35px;
+  }
+  
+  .news-content {
+    padding: 15px;
+  }
+  
+  .news-item-title {
+    font-size: 15px;
+  }
+  
+  .news-button {
+    padding: 8px 16px;
+    font-size: 13px;
+  }
+}
