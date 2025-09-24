@@ -6,7 +6,7 @@ const Footer = () => {
                     <div className="main_section">
                         <div className="main_section_logo">
                             <a href="">
-                                <img src="./public/image 2.svg" alt="img" />
+                                <img src="./image 2.svg" alt="img" />
                             </a>
                         </div>
                         <h1 className='hh1'>Bilton</h1>
