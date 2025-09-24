@@ -2798,7 +2798,6 @@ h3 {
 	padding: 53px 106px;
 	position: relative;
 	margin-top: 300px;
-	margin-bottom: -170px;
 }
 
 .aloqa_logo {
@@ -2821,9 +2820,7 @@ h3 {
 	height: 60px;
 	background-color: #FFFFFF;
 	border-radius: 100%;
-	position: absolute;
-	top: 250px;
-	left: 100px;
+	margin-left: 20px;
 }
 
 .aloqa_img2 {
@@ -2834,9 +2831,7 @@ h3 {
 	height: 60px;
 	background-color: #FFFFFF;
 	border-radius: 100%;
-	position: absolute;
-	top: 250px;
-	left: 325px;
+	margin-left: 20px;
 }
 
 .aloqa_img3 {
@@ -2847,9 +2842,7 @@ h3 {
 	height: 60px;
 	background-color: #FFFFFF;
 	border-radius: 100%;
-	position: absolute;
-	top: 250px;
-	left: 550px;
+	margin-left: 20px;
 }
 
 .aloqa_ p {
@@ -3411,7 +3404,7 @@ footer {
 		font-family: Poppins;
 		font-weight: 900;
 		font-style: Bold;
-		font-size: 24.03px;
+		font-size: 24px;
 		text-align: center;
 		max-width: 300px;
 	}
