@@ -27,7 +27,7 @@ function AnimatedCounter({ end, duration }) {
   return <span>{count}+</span>;
 }
 
-export default function CounterSection() {
+function CounterSection() {
   return (
     <section className="counter-section">
       <div className="counter-item">
@@ -56,3 +56,5 @@ export default function CounterSection() {
     </section>
   );
 }
+
+export default CounterSection;

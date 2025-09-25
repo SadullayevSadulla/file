@@ -155,8 +155,6 @@ import "./header.css";
 import "swiper/css";
 import "swiper/css/free-mode";
 import "swiper/css/pagination";
-import CounterDemo from "../../kimbu/kimbu.jsx";
-import BoshSahifa from "../../components/BoshSahifa/Boshsahifa.jsx";
 
 const Header = () => {
   const [open, setOpen] = useState(false);

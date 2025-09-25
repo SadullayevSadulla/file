@@ -7,6 +7,8 @@ import Afzalliklar from '../components/Afzalliklar/Afzalliklar.jsx';
 import Aloqa from '../components/Aloqa/Aloqa.jsx';
 import Header from '../all/header/header.jsx';
 import Footer from '../components/footer/footer.jsx';
+import CounterSection from '../components/kimbu/kimbu.jsx';
+import Fikir from '../components/Fikirlar/Fikir.jsx';
 
 const App = () => {
   return (
@@ -14,8 +16,10 @@ const App = () => {
       <Header />
       <BoshSahifa />
       <BizHaqimizda />
+      <CounterSection />
       <Jamoa />
       <Afzalliklar />
+      <Fikir />
       <Yangiliklar />
       <Aloqa />
       <Footer />
