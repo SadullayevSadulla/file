@@ -48,12 +48,12 @@ function Kimbu() {
 
       <div className="counter-item">
         <div className="iconn">
-          <img src="./public/library-learn-study-knowledge_svgrepo.com.svg" alt="" />        </div>
+          <img src="./public/library-learn-study-knowledge_svgrepo.com.svg" alt="" />
+        </div>
         <h2><AnimatedCounter end={5} duration={2000} /></h2>
         <p>Yordamchi ustozlar</p>
       </div>
     </section>
   );
 }
-
 export default Kimbu;
