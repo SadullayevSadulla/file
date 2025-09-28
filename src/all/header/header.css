@@ -548,19 +548,25 @@ nav a {
 }
 
 
-.swiper {
+.topSwiper .swiper {
 	width: 1200px;
 	height: 300px;
 	padding: 20px !important;
 }
 
-.swiper-slide {
-	width: 1100;
+.topSwiper .swiper-slide {
+	width: 100%;
+	max-width: 340px;
+	min-width: 0;
 	height: 266px;
-	background: #ffffff;
+	background: #fff;
 	border-radius: 16px;
 	box-shadow: 3px 3px 8px #a5a5a5;
 	padding: 17px 12px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 .swiper-slide:hover {
@@ -589,6 +595,30 @@ nav a {
 	width: 30px;
 	height: 36px;
 	object-fit: contain;
+}
+
+
+/* main swiper */
+
+.mainSwiper .swiper {
+	width: 1200px;
+	height: 400px;
+	padding: 20px !important;
+}
+
+
+.mainSwiper .swiper-slide {
+	width: 100%;
+	max-width: 340px;
+	min-width: 0;
+	height: 350px;
+	background: #fff;
+	border-radius: 20px;
+	box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+	padding: 30px 20px;
+	text-align: center;
+	position: relative;
+	overflow: hidden;
 }
 
 /* Slide variants */
@@ -790,9 +820,15 @@ nav a {
 	margin-inline: 200px;
 }
 
-.card {
-	width: 280px;
-	background: #fff;
+.mySwiper .mainSwiper {
+	display: flex;
+	gap: 200px;
+}
+
+.mainSwiper .swiper-slide .card {
+	width: 100%;
+	height: 100%;
+	background: #FFFFFF;
 	border-radius: 20px;
 	box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
 	padding: 30px 20px;
@@ -800,6 +836,7 @@ nav a {
 	position: relative;
 	overflow: hidden;
 }
+
 
 .card:hover {
 	box-shadow: 10px 10px 10px #515151;
@@ -1029,9 +1066,10 @@ h3 {
 
 /* Slide section */
 .silde0 {
+	display: flex;
+	gap: 20px;
 	background-color: #05156D;
 	padding: 80px 0px;
-	margin-top: 81px;
 }
 
 .silde_h1 {
@@ -1075,6 +1113,16 @@ h3 {
 	top: 50px;
 	left: 100px;
 	color: #FFB202;
+}
+
+.fikir .swiper-slide .cardlaa img {
+	width: 100px;
+	height: 100px;
+}
+
+.fikir .swiper-slide {
+	width: 50px;
+	height: 400px;
 }
 
 .mii {
@@ -1440,16 +1488,9 @@ footer {
 }
 
 .cardlar {
-	display: flex;
-	gap: 64px;
-}
-
-.kuu {
-	width: 447px;
-	height: 483px;
-	background-color: white;
-	border-radius: 0px 0px 100px 100px;
-	position: relative;
+	display: none;
+	/* display: flex; */
+	/* gap: 64px; */
 }
 
 .cardlaa img {
@@ -2791,6 +2832,9 @@ h3 {
 }
 
 .aloqa {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	width: 1600px;
 	height: 338px;
 	background: linear-gradient(90deg, #FFB202 0%, #B57F06 100%);
@@ -3316,6 +3360,10 @@ footer {
 		width: 750px;
 	}
 
+	.fikir .swiper-slide .kuu {
+		margin-left: 170px;
+	}
+
 	.main_button button {
 		margin-left: 50px;
 		width: 150px;
@@ -3390,6 +3438,65 @@ footer {
 	}
 }
 
+@media (max-width: 768px) {
+	.cards-desktop {
+		display: none;
+	}
+
+	.cards-mobile {
+		display: block;
+		width: 100%;
+		margin: 0 auto;
+	}
+
+	.swiper {
+		max-width: 95vw;
+		min-width: 0;
+		padding: 0 0 30px 0;
+	}
+
+	.swiper-slide {
+		min-width: 0;
+		width: 100%;
+		display: flex;
+		justify-content: center;
+	}
+
+	.card {
+		max-width: 95vw;
+		width: 100%;
+		margin: 0 auto;
+	}
+
+	.title {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin-inline: auto;
+	}
+
+	.text {
+		max-width: 350px;
+	}
+}
+
+@media (max-width: 425px) {
+
+	.swiper,
+	.card {
+		max-width: 99vw;
+		padding: 10px 2vw;
+	}
+
+	.swiper,
+	.swiper-slide {
+		max-width: 99vw;
+		min-width: 0;
+		width: 100%;
+		padding: 10px 2vw;
+	}
+}
+
 @media (max-width:425px) {
 	.korr {
 		display: none;
@@ -3432,6 +3539,13 @@ footer {
 		margin-left: 20px;
 	}
 
+	.main_main_son {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+	}
+
 	.main_btn {
 		display: flex;
 		justify-content: center;
@@ -3456,6 +3570,11 @@ footer {
 	.swiper {
 		width: 310px;
 	}
+
+	.fikir .swiper-slide .kuu {
+		margin-left: -30px;
+	}
+
 
 	.main_main_img img:nth-child(1) {
 		width: 196px;
@@ -3546,65 +3665,109 @@ footer {
 		height: 242px;
 		background-color: #373555;
 		border-radius: 13px;
-		margin-top: 80px;
-		margin-left: -180px;
+		margin-top: 90px;
+		margin-left: -120px;
 	}
+
+	.teacher-card {
+		width: 180px;
+		height: 300px;
+	}
+}
+
+@media (max-width:390px) {
+	.main_main_son {
+		display: flex;
+		gap: 10px;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+	}
+
+	.poi {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		margin-inline: auto;
+	}
+
+	.kuu {
+		box-shadow: none;
+	}
+
 }
 
 @media (max-width:375px) {
 	.main {
-		width: 340px;
+		width: 30px;
 		height: 105px;
 	}
 
-	.main_main_btn button {
-		width: 350px;
-		height: 85px;
+	.aloqa {
+		width: 355px;
+		height: 559px;
+		margin-bottom: -170px;
+	}
+
+	.section_menu nav {
+		width: 200px;
 	}
 
 	.main_main_son {
 		display: flex;
-		gap: 20px;
-	}
-
-	.main_main_har1 h1 {
-		font-size: 18px;
-
-	}
-
-	.kuu {
-		width: 330px;
-		height: 400px;
-	}
-
-	.aloqa {
-		width: 350px;
-		height: 589px;
-		z-index: 1;
-	}
-
-	.aloqa_img {
-		position: absolute;
-		top: 260px;
-		left: 50px;
-	}
-
-	.aloqa_img2 {
-		position: absolute;
-		top: 360px;
-		left: 50px;
-	}
-
-	.aloqa_img3 {
-		position: absolute;
-		top: 465px;
-		left: 50px;
 	}
 
 	.footer_3 {
 		position: absolute;
-		left: 340px;
-		top: 270px;
-		width: 201px;
+		top: 400px;
+		left: 30px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		padding: 16px 10px;
+		width: 231px;
+		height: 242px;
+		margin-inline: auto;
+	}
+
+	.footer_logo {
+		margin-top: 350px;
+	}
+
+	.main_main_img {
+		margin-left: 50px;
+	}
+
+	.main_main_btn {
+		margin-right: 20px;
+	}
+
+	.main_main_son {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+	}
+
+	.lorem {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		max-width: 300px;
+		margin-inline: auto;
+	}
+
+	.poi {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		margin-inline: auto;
+	}
+
+	.teacher-card img {
+		width: 180px;
+		height: 300px;
 	}
 }

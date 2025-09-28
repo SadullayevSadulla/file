@@ -9,7 +9,7 @@ const Boshsahifa = () => {
   return (
     <>
       {/* <Header /> */}
-      <section className='slideSec'>
+      <section className='slideSec container'>
         <Swiper
           slidesPerView={1}
           spaceBetween={20}
@@ -20,7 +20,7 @@ const Boshsahifa = () => {
             1024: { slidesPerView: 4, spaceBetween: 30 }
           }}
           modules={[FreeMode]}
-          className="mySwiper"
+          className="mySwiper topSwiper"
         >
           <SwiperSlide className="slide1">
             <img src="/Group (4).svg" alt="Sifatli ta'lim" />
