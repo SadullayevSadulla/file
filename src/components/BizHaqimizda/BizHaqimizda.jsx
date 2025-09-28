@@ -7,8 +7,8 @@ const BizHaqimizda = () => {
       {/* <Header /> */}
       <section>
         <div className="main_main container" id="bizhaqimizda">
-          <div className="main_main_run">
-            <div className="main_main_img container">
+          <div className="main_main_run container">
+            <div className="main_main_img">
               <img src="/Rectangle 5.png" alt="img" />
               <img src="/Rectangle 6.png" alt="img" />
             </div>
