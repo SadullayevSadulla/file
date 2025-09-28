@@ -27,7 +27,7 @@ function AnimatedCounter({ end, duration }) {
   return <span>{count}+</span>;
 }
 
-function Kimbu() {
+function CounterSection() {
   return (
     <section className="counter-section">
       <div className="counter-item">
@@ -57,4 +57,4 @@ function Kimbu() {
   );
 }
 
-export default Kimbu;
+export default CounterSection;
