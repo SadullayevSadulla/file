@@ -32,7 +32,7 @@ function CounterSection() {
     <section className="counter-section">
       <div className="counter-item">
         <div className="iconn">
-            <img src="./public/Group (5).svg" alt="img" />
+            <img src="/Group (5).svg.svg" alt="img" />
         </div>
         <h2><AnimatedCounter end={420} duration={2000} /></h2>
         <p>Mamnun o‘quvchilar</p>
@@ -40,7 +40,7 @@ function CounterSection() {
 
       <div className="counter-item">
         <div className="iconn">
-            <img src="./public/Group (6).svg" alt="" />
+            <img src="/Group (6).svg.svg" alt="" />
         </div>
         <h2><AnimatedCounter end={12} duration={2000} /></h2>
         <p>Tajribali ustozlar</p>
@@ -48,7 +48,7 @@ function CounterSection() {
 
       <div className="counter-item">
         <div className="iconn">
-            <img src="./public/library-learn-study-knowledge_svgrepo.com.svg" alt="" />
+            <img src="/library-learn-study-knowledge_svgrepo.com.svg" alt="" />
         </div>
         <h2><AnimatedCounter end={5} duration={2000} /></h2>
         <p>Yordamchi ustozlar</p>

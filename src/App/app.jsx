@@ -8,7 +8,7 @@ import Aloqa from "../components/Aloqa/Aloqa.jsx";
 import Header from "../all/header/header.jsx";
 import Footer from "../components/footer/footer.jsx";
 import Fikir from "../components/Fikirlar/Fikir.jsx";
-import CounterSection from "../components/kimbu/kimbu.jsx";
+import CounterSection from "../components/kimbu/CounterSection.jsx";
 
 const App = () => {
   return (
