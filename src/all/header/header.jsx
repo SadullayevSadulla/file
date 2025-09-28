@@ -108,7 +108,7 @@ const Header = () => {
 
                     <div className="main_btn1">
                       <a href="#">
-                        <img src="/icon.svg" alt="icon" />
+                        <img src="/icon-2.svg" alt="icon" />
                         <img src="/icon-1.svg" alt="icon" />
                       </a>
                     </div>
