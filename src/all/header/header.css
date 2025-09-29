@@ -3672,6 +3672,10 @@ footer {
 }
 
 @media (max-width:390px) {
+	.main{
+		width: 330px;
+		height: 105px;
+	}
 	.main_main_son {
 		display: flex;
 		gap: 10px;
@@ -3690,6 +3694,9 @@ footer {
 
 	.kuu {
 		box-shadow: none;
+	}
+	.main_main_btn button {
+		display: none;
 	}
 
 }
