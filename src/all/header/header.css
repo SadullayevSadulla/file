@@ -3669,8 +3669,10 @@ footer {
 		width: 180px;
 		height: 300px;
 	}
+	.main_main_btn{
+		display: none;
+	}
 }
-
 @media (max-width:390px) {
 	.main{
 		width: 330px;
