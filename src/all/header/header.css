@@ -547,6 +547,17 @@ nav a {
 	width: 40px;
 }
 
+.swiper {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    z-index: 1;
+    display: block;
+    overflow: hidden;
+    list-style: none;
+    padding: 0px;
+}
+
 
 .topSwiper .swiper {
 	width: 1200px;
@@ -3569,7 +3580,7 @@ footer {
 	}
 
 	.fikir .swiper-slide .kuu {
-		/* margin-left: -30px; */
+		margin-left: -30px;
 	}
 
 
