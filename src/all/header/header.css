@@ -547,17 +547,6 @@ nav a {
 	width: 40px;
 }
 
-.swiper {
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
-    z-index: 1;
-    display: block;
-    overflow: hidden;
-    list-style: none;
-    padding: 0px;
-}
-
 
 .topSwiper .swiper {
 	width: 1200px;
@@ -2923,7 +2912,7 @@ h3 {
 
 footer {
 	background-color: #05156D;
-	padding:  30px;
+	padding: 30px;
 }
 
 .footer {
@@ -3681,15 +3670,18 @@ footer {
 		width: 180px;
 		height: 300px;
 	}
-	.main_main_btn{
+
+	.main_main_btn {
 		display: none;
 	}
 }
+
 @media (max-width:390px) {
-	.main{
+	.main {
 		width: 330px;
 		height: 105px;
 	}
+
 	.main_main_son {
 		display: flex;
 		gap: 10px;
@@ -3709,6 +3701,7 @@ footer {
 	.kuu {
 		box-shadow: none;
 	}
+
 	.main_main_btn button {
 		display: none;
 	}
@@ -3719,6 +3712,17 @@ footer {
 	.main {
 		width: 330px;
 		height: 105px;
+	}
+
+	.mainSwiper .swiper {
+		margin-left: auto;
+		margin-right: auto;
+		position: relative;
+		z-index: 1;
+		display: block;
+		overflow: hidden;
+		list-style: none;
+		padding: 0px;
 	}
 
 	.aloqa {
