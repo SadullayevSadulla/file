@@ -3778,4 +3778,12 @@ footer {
 	.main_main_btn button {
 		display: none;
 	}
+
+	.card{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin-inline: auto;
+		margin-right: 100px;
+	}
 }
