@@ -600,7 +600,10 @@ nav a {
 
 /* main swiper */
 
-.mainSwiper .swiper {
+/* .mainSwiper .swiper {
+	display: flex;
+	align-items: center;
+	justify-content: center;
 	width: 1200px;
 	height: 400px;
 	padding: 20px !important;
@@ -617,7 +620,48 @@ nav a {
 	text-align: center;
 	position: relative;
 	overflow: hidden;
+} */
+
+.mainSwiper {
+	width: 100%;
+	max-width: 1200px;
+	/* limit qo‘yildi */
+	margin: 0 auto;
+	padding: 20px 0;
 }
+
+.mainSwiper .swiper-slide {
+	width: 100%;
+	max-width: 340px;
+	height: 350px;
+	border-radius: 20px;
+	padding: 30px 20px;
+	text-align: center;
+	position: relative;
+	overflow: hidden;
+	background: #fff;
+	box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.card .icon {
+	margin-bottom: 15px;
+}
+
+.card .icon img {
+	width: 60px;
+	height: 60px;
+}
+
+.card .title {
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+
+.card .text {
+	font-size: 14px;
+	color: #555;
+}
+
 
 /* Slide variants */
 .slide1 img,
