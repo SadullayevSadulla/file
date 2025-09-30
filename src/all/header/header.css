@@ -3779,10 +3779,4 @@ footer {
 		display: none;
 	}
 
-	.card{
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		margin-inline: auto;
-	}
 }
