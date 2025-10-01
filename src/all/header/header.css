@@ -598,29 +598,7 @@ nav a {
 }
 
 
-/* main swiper */
 
-/* .mainSwiper .swiper {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	width: 1200px;
-	height: 400px;
-	padding: 20px !important;
-}
-
-
-.mainSwiper .swiper-slide {
-	width: 100%;
-	max-width: 340px;
-	min-width: 0;
-	height: 350px;
-	border-radius: 20px;
-	padding: 30px 20px;
-	text-align: center;
-	position: relative;
-	overflow: hidden;
-} */
 
 .mainSwiper {
 	width: 100%;
@@ -636,9 +614,6 @@ nav a {
 	padding: 30px 20px;
 	text-align: center;
 	position: relative;
-	/* overflow: hidden; */
-	background: #fff;
-	box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
 }
 
 .card .icon {
@@ -1106,10 +1081,9 @@ h3 {
 
 /* Slide section */
 .silde0 {
-	display: flex;
-	gap: 20px;
 	background-color: #05156D;
 	padding: 80px 0px;
+	margin-top: 81px;
 }
 
 .silde_h1 {
@@ -1141,28 +1115,12 @@ h3 {
 	position: relative;
 }
 
-.cardlaa img {
-	display: flex;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 13px;
-}
 
 .miii {
 	position: absolute;
 	top: 50px;
 	left: 100px;
 	color: #FFB202;
-}
-
-.fikir .swiper-slide .cardlaa img {
-	width: 100px;
-	height: 100px;
-}
-
-.fikir .swiper-slide {
-	width: 50px;
-	height: 400px;
 }
 
 .mii {
@@ -1208,6 +1166,60 @@ h3 {
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+
+.silde_h1 {
+	position: relative;
+}
+
+.silde_h1 h1 {
+	font-family: sans-serif;
+	font-size: 38px;
+	font-weight: 600;
+	max-width: 1000px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	color: #FFFFFF;
+	margin-block: 28px 63px;
+}
+
+.cardlar {
+	display: flex;
+	gap: 64px;
+}
+
+.kuu {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-inline: auto;
+	width: 447px;
+	height: 483px;
+	background-color: white;
+	border-radius: 0px 0px 100px 100px;
+	position: relative;
+}
+
+.fikir .swiper-slide .cardlaa img {
+	width: 100px;
+	height: 100px;
+}
+
+.fikir .swiper-slide {
+	width: 50px;
+	height: 400px;
+}
+
+.buu {
+	font-size: 20px;
+	font-weight: 500;
+	font-family: sans-serif;
+	display: flex;
+	justify-content: center;
+	margin-block: 38px 7px;
+	color: #05156D;
 }
 
 /* Counter section */
@@ -1484,6 +1496,7 @@ footer {
 	background-color: #05156D;
 	padding: 80px 0px;
 	margin-top: 81px;
+	display: none;
 }
 
 .btn8 {
@@ -2656,51 +2669,10 @@ h3 {
 
 .kuu {
 	width: 447px;
-	height: 483px;
+	height: 533px;
 	background-color: white;
 	border-radius: 0px 0px 100px 100px;
 	position: relative;
-}
-
-.cardlaa img {
-	display: flex;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 13px;
-}
-
-.miii {
-	position: absolute;
-	top: 50px;
-	left: 100px;
-	color: #FFB202;
-}
-
-.mii {
-	position: absolute;
-	top: 50px;
-	left: 300px;
-	color: #FFB202;
-}
-
-.buu {
-	font-size: 20px;
-	font-weight: 500;
-	font-family: sans-serif;
-	display: flex;
-	justify-content: center;
-	margin-block: 38px 7px;
-	color: #05156D;
-}
-
-.buuu {
-	font-size: 18px;
-	font-weight: 400;
-	font-family: sans-serif;
-	color: #05156D;
-	display: flex;
-	justify-content: center;
-	margin-bottom: 11px;
 }
 
 .yul {
@@ -3755,9 +3727,22 @@ footer {
 	}
 
 	.aloqa {
-		width: 355px;
-		height: 559px;
+		width: 365px;
+		height: 569px;
 		margin-bottom: -170px;
+	}
+
+	
+	.aloqa_img {
+		margin-top: 60px;
+	}
+
+	.aloqa_img2 {
+		margin-top: 55px;
+	}
+
+	.aloqa_img3 {
+		margin-top: 65px;
 	}
 
 	.section_menu nav {
@@ -3768,21 +3753,40 @@ footer {
 		display: flex;
 	}
 
+	.tomm img {
+		margin-top: 200px;
+	}
+
+	.main_section h1 {
+		position: absolute;
+		top: 230px;
+		right: 140px;
+	}
+
+
 	.footer_3 {
 		position: absolute;
-		top: 400px;
-		left: 30px;
+		top: 350px;
+		left: 5px;
 		display: flex;
 		justify-content: center;
 		align-items: center;
 		padding: 16px 10px;
-		width: 231px;
+		width: 301px;
 		height: 242px;
 		margin-inline: auto;
 	}
-
 	.footer_logo {
-		margin-top: 350px;
+		margin-top: 320px;
+	}
+
+	.teacher-card {
+		width: 180px;
+		height: 200px;
+	}
+
+	.mainSwiper .card{
+		margin-right: 50px;
 	}
 
 	.main_main_btn {
@@ -3801,7 +3805,9 @@ footer {
 		justify-content: center;
 		align-items: center;
 		max-width: 300px;
+		text-align: center;
 		margin-inline: auto;
+		margin-top: 50px;
 	}
 
 	.poi {

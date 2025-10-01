@@ -99,7 +99,7 @@ import "swiper/css"
 const Afzalliklar = () => {
   return (
     <div className="container">
-      <div className="section_card" id="afzalliklar">
+      <div className="section_card " id="afzalliklar">
         <div className="card_h1">
           <div className="main_main_btn1">
             <button>Nega bizni tanladingiz</button>

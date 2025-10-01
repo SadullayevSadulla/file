@@ -5,7 +5,7 @@ const Footer = () => {
                 <div className="poi">
                     <div className="footer_1">
                         <div className="main_section">
-                            <div className="main_section_logo">
+                            <div className="main_section_logo tomm">
                                 <a href="">
                                     <img src="/image 2.svg" alt="img" />
                                 </a>

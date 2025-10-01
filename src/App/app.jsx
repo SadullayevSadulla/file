@@ -7,7 +7,6 @@ import Afzalliklar from "../components/Afzalliklar/Afzalliklar.jsx";
 import Aloqa from "../components/Aloqa/Aloqa.jsx";
 import Header from "../all/header/header.jsx";
 import Footer from "../components/footer/footer.jsx";
-import Fikir from "../components/Fikirlar/Fikir.jsx";
 import Kimbu from "../components/kimbu/Kimbu.jsx";
 const App = () => {
   return (
@@ -18,7 +17,6 @@ const App = () => {
       <Kimbu/>
       <Jamoa />
       <Afzalliklar />
-      <Fikir />
       <Yangiliklar />
       <Aloqa />
       <Footer />
